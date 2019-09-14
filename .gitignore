@@ -1,4 +1,59 @@
-*.swp
-target/
-**/*.rs.bk
 .DS_Store
+.AppleDouble
+.LSOverride
+dump.rdb
+target
+*.pid
+*.port
+*.log
+*.log.*
+.classpath
+.project
+.settings
+**/.classpath
+**/.project
+**/.settings
+*LocalTest*
+*localTest*
+*localtest*
+
+Icon
+**/.idea
+.idea/
+*.iml
+**/*.iml
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+.checkstyle
+
+# Fonts
+*.ttc
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*out*
+.solution.json
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# mentor
+users/
+
+# rust
+/target/
+**/*.rs.bk
+*.lock
