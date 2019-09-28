@@ -57,3 +57,4 @@ users/
 /target/
 **/*.rs.bk
 *.lock
+*.o
